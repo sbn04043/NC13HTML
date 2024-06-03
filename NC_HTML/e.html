@@ -1,0 +1,56 @@
+<html>
+<head>
+	<!--
+	title 태그는 해당 문서가 웹 브라우저에서
+	어떤 이름으로 보여줄지를 지정하는 태그다.
+	-->
+	<title>NC13 - 테이블</title>
+</head>
+<body>
+<!--
+	table 태그는 웹 문서 안에 표를 만들어 보여줄 때 사용
+	table 태그는 table - tr(th) - td 순으로 표를 만들게 된다.
+	tr: table raw
+	th: table header
+	td: table dataset
+-->
+
+<table border="dotted">
+	<tr>
+		<th>번호</th>
+		<th>이름</th>
+		<th>국어</th>
+		<th>영어</th>
+		<th>수학</th>
+	<tr/>
+	<tr>
+		<td>1</td>
+		<td>김철수</td>
+		<td>100</td>
+		<td>100</td>
+		<td>100</td>
+	<tr/>
+	<tr>
+		<td>2</td>
+		<td>이영희</td>
+		<td>90</td>
+		<td>80</td>
+		<td>85</td>
+	<tr/>
+	<tr>
+		<td rowspan="4" colspan="2">총합</td>
+		<tr>
+			<td>국어</td>
+			<td colspan="2">190</td>
+		</tr>
+		<tr>
+			<td>영어</td>
+			<td colspan="2">180</td>
+		</tr><tr>
+			<td>수학</td>
+			<td colspan="2">185</td>
+		</tr>
+	<tr/>
+</table>
+</body>
+</html>
